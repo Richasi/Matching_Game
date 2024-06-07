@@ -1,0 +1,193 @@
+.game-describe {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url("../image/image.png"); /* Correct this path if necessary */
+  background-size: cover;
+  background-position: center;
+}
+
+.game-describe .group156-image,
+.game-describe .group148-image,
+.game-describe .group154-image,
+.game-describe .group123-image,
+.game-describe .frame17-image,
+.game-describe .vector7-image {
+  position: absolute;
+}
+
+.game-describe .group156-image {
+  top: 4%;
+  left: 8%;
+  width: 10%;
+  transform: translateX(-50%);
+}
+
+.game-describe .group156-image:hover {
+  width: 11%;
+}
+
+.game-describe .group148-image {
+  top: 4%;
+  left: 20%;
+}
+
+.game-describe .group154-image {
+  top: 0%;
+  right: 27%;
+  width: 10%;
+}
+
+.game-describe .group123-image {
+  cursor: pointer;
+  bottom: 5%;
+  left: 80%;
+  width: 17%;
+  z-index: 2;
+}
+
+.game-describe .group123-image:hover {
+  width: 18%;
+}
+
+.game-describe .frame17-image {
+  bottom: 15%;
+  left: 7.5%;
+  width: 80%;
+  z-index: 0;
+}
+
+.game-describe .vector7-image {
+  bottom: 20%;
+  left: 14%;
+}
+
+.game-describe .gridContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+  width: 80%;
+  height: 50%;
+  margin: auto;
+  position: relative;
+  top: 29%;
+  z-index: 1;
+}
+
+.game-describe .card {
+  background-image: url("../image/ScreenGame/Rectangle-160.png"); /* Correct relative path */
+  border-radius: 8px;
+  width: 72%;
+  height: 105%;
+  z-index: 1;
+  background-size: cover;
+}
+
+.game-describe .card1Image,
+.game-describe .cardImage,
+.game-describe .Headinglifeskills1Image,
+.game-describe .Headinglifeskills2Image,
+.game-describe .oneImage {
+  position: absolute;
+}
+
+.game-describe .card1Image {
+  top: 5%;
+  left: 2%;
+  width: 15%;
+  z-index: 1;
+}
+
+.game-describe .cardImage {
+  top: 5%;
+  left: 7%;
+  width: 14%;
+  z-index: 2;
+}
+
+.game-describe .Headinglifeskills1Image {
+  bottom: 8%;
+  left: 6%;
+  width: 10.5%;
+}
+
+.game-describe .Headinglifeskills2Image {
+  bottom: 0%;
+  left: 6%;
+  width: 10%;
+}
+
+.game-describe .oneImage {
+  bottom: 17%;
+  left: 0%;
+  width: 3%;
+}
+
+.game-describe .card2Image,
+.game-describe .Headinglifeskills3Image,
+.game-describe .Headinglifeskills4Image,
+.game-describe .twoImage {
+  position: absolute;
+}
+
+.game-describe .card2Image {
+  top: 5%;
+  left: 38%;
+  width: 15%;
+}
+
+.game-describe .Headinglifeskills3Image {
+  left: 40%;
+  bottom: 10%;
+  width: 10.5%;
+}
+
+.game-describe .Headinglifeskills4Image {
+  bottom: 0%;
+  left: 40%;
+  width: 11%;
+}
+
+.game-describe .twoImage {
+  bottom: 17%;
+  left: 33.5%;
+  width: 3%;
+}
+
+.game-describe .group157Image,
+.game-describe .Headinglifeskills5Image,
+.game-describe .Headinglifeskills6Image,
+.game-describe .Headinglifeskills7Image,
+.game-describe .threeImage {
+  position: absolute;
+}
+
+.game-describe .group157Image {
+  top: 5%;
+  right: 8%;
+  width: 25%;
+}
+
+.game-describe .Headinglifeskills5Image {
+  right: 15%;
+  bottom: 21%;
+  width: 12%;
+}
+
+.game-describe .Headinglifeskills6Image {
+  bottom: 12%;
+  right: 13%;
+  width: 15%;
+}
+
+.game-describe .Headinglifeskills7Image {
+  bottom: 2%;
+  right: 14%;
+  width: 13%;
+}
+
+.game-describe .threeImage {
+  bottom: 17%;
+  right: 30.1%;
+  width: 3%;
+}

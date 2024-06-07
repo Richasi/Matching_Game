@@ -1,0 +1,341 @@
+.game-start-cards {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../image/image.png");
+  background-size: cover;
+  background-position: center;
+  border: 1px solid white;
+}
+
+.group156-image {
+  position: absolute;
+  top: 4%;
+  left: 8%;
+  width: 10%;
+  transform: translateX(-50%);
+}
+.group156-image:hover {
+  width: 11%;
+}
+
+.game-start {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 85%;
+  margin: auto;
+}
+
+.game-start .pink-cards,
+.game-start .blue-cards {
+  margin-top: 120px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.game-start .card {
+  width: 200px;
+  height: 230px;
+  cursor: pointer;
+  perspective: 1000px;
+}
+
+.game-start .card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.game-start .card.flipped .card-inner {
+  transform: rotateY(180deg);
+}
+
+.game-start .card-front-pink,
+.game-start .card-front-blue,
+.game-start .card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 10px;
+}
+
+.game-start .card-front-pink {
+  /* background: pink; */
+  background-image: url("../image/GameStart/pinkheart.png");
+  background-size: contain;
+  background-position: center;
+}
+.game-start .card-front-blue {
+  background-image: url("../image/GameStart/blueheart.png");
+  background-size: contain;
+  background-position: center;
+}
+
+.game-start .card-back {
+  /* background: white; */
+  transform: rotateY(180deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-start .card-back img {
+  width: 80%;
+  height: 80%;
+}
+
+/* .card-pink {
+    background-image: url("../image/GameStart/pink.png");
+    background-size: contain;
+    background-position: center;
+  }
+   */
+/* .card-blue {
+    background-image: url("../image/GameStart/blue.png");
+    background-size: contain;
+    background-position: center;
+  } */
+
+.game-start .game-info {
+  text-align: center;
+}
+/* .game-info h4 {
+  border: 5px solid white;
+  position: absolute;
+  right: 20%;
+  background-color: rgb(87, 210, 250);
+  padding: 15px;
+  font-size: 25px;
+  border-radius: 20px;
+  margin-right: 10px;
+  margin-top: 15px;
+  font-weight: bold;
+  color: white;
+} */
+.game-info h5 {
+  border: 5px solid white;
+  position: absolute;
+  right: 0%;
+  background-color: rgb(87, 210, 250);
+  padding: 15px;
+  font-size: 25px;
+  border-radius: 20px;
+  margin-right: 20px;
+  margin-top: -15px;
+  font-weight: bold;
+  color: white;
+}
+.matching-message {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  z-index: 100;
+}
+.match-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modal-content {
+  position: relative;
+  /* background: #fff; */
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
+}
+
+.close-modal {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.match-text {
+  position: absolute;
+  top: -600%;
+  left: 1%;
+  width: 1900%;
+  height: 100px;
+  font-size: 4.5rem;
+  /* margin-bottom: 20px; */
+  font-weight: bolder;
+  /* gap: 0px; */
+  border: 7px 0px 0px 0px;
+  /* opacity: 0px; */
+  /* font-family: Nunito; */
+  /* border: 5px solid white; */
+  /* font-size: 96px; */
+  /* font-weight: 800; */
+  /* line-height: 130.94px; */
+  /* letter-spacing: 0.08em; */
+  /* text-align: center; */
+  color: #ef8f35;
+
+  -webkit-text-stroke: 1px white;
+}
+
+.matched-cards .firstCard {
+  position: absolute;
+  top: -400%;
+  left: -740%;
+  width: 250px;
+  height: 270px;
+  /* margin: 10px; */
+  transform: rotate(-10deg);
+}
+
+.matched-cards .secondCard {
+  position: absolute;
+  top: -100%;
+  left: 0%;
+  width: 250px;
+  height: 270px;
+  border-radius: 10px;
+  transform: rotate(15deg);
+}
+
+.earned-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.earned-modal-content {
+  position: relative;
+  /* background: #fff; */
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
+}
+
+.close-modal {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.earned-text .earnedImage,
+.earned-text .monkey6Image,
+.earned-text .banana1Image,
+.earned-text .banana2Image,
+.earned-text .banana3Image,
+.earned-text .banana4Image,
+.earned-text .banana5Image {
+  position: absolute;
+}
+
+.earned-text .earnedImage {
+  position: absolute;
+  top: -500%;
+  left: -200%;
+  width: 550%;
+}
+
+.tryAgainImage {
+  position: absolute;
+  top: -500%;
+  left: -200%;
+  width: 580%;
+}
+
+.earned-text .monkey6Image {
+  position: absolute;
+  left: -50%;
+  top: -40%;
+  width: 300%;
+  z-index: 3;
+}
+
+.earned-text .banana1Image {
+  position: absolute;
+  top: -350%;
+  left: -400%;
+  width: 150%;
+}
+.earned-text .banana2Image {
+  position: absolute;
+  top: 50%;
+  left: -500%;
+  width: 150%;
+}
+.earned-text .banana3Image {
+  position: absolute;
+  top: -300%;
+  left: 350%;
+  width: 200%;
+}
+.earned-text .banana4Image {
+  position: absolute;
+  top: 10%;
+  left: 500%;
+  width: 200%;
+}
+
+.earned-text .banana5Image {
+  position: absolute;
+  top: 300%;
+  left: 400%;
+  width: 150%;
+}
+.progress-bar-container {
+  width: 40%;
+  background-color: #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 10px 0;
+  position: relative;
+  height: 20px;
+  /* margin: auto; */
+  position: relative;
+  top: 60px;
+  left: 330px;
+  padding: 5px;
+  border-radius: 20px;
+  border: 5px solid white;
+}
+
+.progress-bar {
+  /* position: absolute; */
+
+  height: 100%;
+  background-color: yellow;
+  transition: width 0.5s ease-in-out;
+}
+
+.banana1-bar {
+  position: absolute;
+  top: 40px;
+  right: 530px;
+  height: 100px;
+  width: 100px;
+  z-index: 5;
+  /* background: url("../image/GameStart/banana1.png"); Add your banana image */
+  /* background-size: contain; */
+  /* background-repeat: no-repeat; */
+}

@@ -1,0 +1,28 @@
+.game-board .group123-image,
+.game-board .group149-image,
+.game-board .heading1lifeskills-image {
+  position: absolute;
+}
+
+.game-board .group123-image {
+  cursor: pointer;
+  bottom: 5%;
+  left: 80%;
+  width: 17%;
+}
+.game-board .group123-image:hover {
+  width: 18%;
+}
+
+.game-board .heading1lifeskills-image {
+  top: 24%;
+  right: 4%;
+  width: 24%;
+  transform: translateX(-50%);
+}
+.game-board .group149-image {
+  top: 15%;
+  right: 13%;
+  width: 30%;
+  /* border: 1px solid red; */
+}
