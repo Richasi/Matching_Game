@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Matching Game Project
 
 ## Welcome to the Matching Game Project!
