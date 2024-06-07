@@ -1,4 +1,3 @@
-1
 
 WelcometotheMatchingGameProject!
 Your task is to create an engaging matching game using React.js with TypeScript,
