@@ -1,4 +1,4 @@
-import group157Image from "../image/ScreenGame/Group-157.png";
+import g157Image from "../image/ScreenGame/G-157.png";
 import oneImage from "../image/ScreenGame/01.png";
 import twoImage from "../image/ScreenGame/02.png";
 import threeImage from "../image/ScreenGame/03.png";
@@ -57,21 +57,21 @@ const cardsData = [
   {
     id: 3,
     images: [
-      group157Image,
+      g157Image,
       Headinglifeskills5Image,
       Headinglifeskills6Image,
       Headinglifeskills7Image,
       threeImage
     ],
     styles: [
-      "group157Image",
+      "g157Image",
       "Headinglifeskills5Image",
       "Headinglifeskills6Image",
       "Headinglifeskills7Image",
       "threeImage"
     ],
     alts: [
-      "Group 157",
+      "G 157",
       "Heading Life Skills 5",
       "Heading Life Skills 6",
       "Heading Life Skills 7",

@@ -3,7 +3,7 @@ import { Route, Routes } from 'react-router-dom'
 import GameBoard from '../components/GameBoard'
 import StartGame from '../components/StartGame'
 import NextGame from '../components/GameNext'
-import DescribeGame from '../components/GameScreen'
+import ScreenGame from '../components/GameScreen'
 import GameStart from '../components/GameStart'
 
 
@@ -13,7 +13,7 @@ const AllRoutes = () => {
       <Route path='/' element={<GameBoard />} />
       <Route path='/start' element={<StartGame />} />
       <Route path='/next' element={<NextGame />} />
-      <Route path='/play' element={<DescribeGame />} />
+      <Route path='/play' element={<ScreenGame />} />
       <Route path='/gamestart' element={<GameStart />} />
     </Routes>
   )

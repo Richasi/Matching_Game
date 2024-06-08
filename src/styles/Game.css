@@ -24,7 +24,7 @@
 .game .vector-image,
 .game .ellipse3091-image,
 .game .ellipse3101-image,
-.game .cog-image,
+.game .c-image,
 .game .star-image,
 .game .ellipse3092-image,
 .game .ellipse3102-image {
@@ -51,12 +51,12 @@
   transform: translateX(-50%);
 }
 
-.game .cog-image {
+.game .c-image {
   bottom: 5%;
   left: 7%;
   width: 4%;
 }
-.game .cog-image:hover {
+.game .c-image:hover {
   width: 5%;
 }
 
@@ -83,7 +83,7 @@
   transform: translateX(-50%);
 }
 
-.game .group149-image {
+.game .g149-image {
   top: 15%;
   right: 17%;
   width: 30%;

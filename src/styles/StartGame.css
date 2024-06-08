@@ -1,45 +1,45 @@
-.start-game-board .group123-image,
-.start-game-board .group149-image,
-.start-game-board .heading1lifeskills1-image,
-.start-game-board .group155-image,
-.start-game-board .group156-image {
+.start-board .g123-image,
+.start-board .g149-image,
+.start-board .heading1lifeskills1-image,
+.start-board .g155-image,
+.start-board .g156-image {
   position: absolute;
 }
 
-.start-game-board .group123-image {
+.start-board .g123-image {
   cursor: pointer;
   bottom: 5%;
   left: 80%;
   width: 17%;
 }
-.start-game-board .group123-image:hover {
+.start-board .g123-image:hover {
   width: 18%;
 }
 
-.start-game-board .group149-image {
+.start-board .g149-image {
   top: 15%;
   right: 12%;
   width: 30%;
 }
 
-.start-game-board .heading1lifeskills1-image {
+.start-board .heading1lifeskills1-image {
   top: 22%;
   right: 9%;
   width: 20%;
   transform: translateX(-50%);
 }
-.start-game-board .group155-image {
+.start-board .g155-image {
   top: 24%;
   right: 12%;
   width: 5%;
   transform: translateX(-50%);
 }
-.start-game-board .group156-image {
+.start-board .g156-image {
   top: 4%;
   left: 8%;
   width: 10%;
   transform: translateX(-50%);
 }
-.start-game-board .group156-image:hover {
+.start-board .g156-image:hover {
   width: 11%;
 }

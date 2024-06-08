@@ -1,15 +1,15 @@
 import React from 'react';
 import '../styles/ScreenGame.css';
-import group123Image from '../image/ScreenGame/Group-123.png';
-import group148Image from '../image/ScreenGame/Group-148.png';
-import group154Image from '../image/ScreenGame/Group-154.png';
-import group156Image from '../image/ScreenGame/Group-156.png';
+import g123Image from '../image/ScreenGame/G-123.png';
+import g148Image from '../image/ScreenGame/G-148.png';
+import g154Image from '../image/ScreenGame/G-154.png';
+import g156Image from '../image/ScreenGame/G-156.png';
 import vector7Image from '../image/ScreenGame/Vector-7.png';
 import frame17Image from '../image/ScreenGame/Frame-17.png';
 import { useNavigate } from 'react-router-dom';
 import cardsData from '../assets/data';
 
-const DescribeGame: React.FC = () => {
+const ScreenGame: React.FC = () => {
     const navigate = useNavigate();
 
     const handleStart = () => {
@@ -21,13 +21,13 @@ const DescribeGame: React.FC = () => {
 
 
     return (
-        <div className="game-describe">
+        <div className="game-screen">
             <div onClick={handleStart}>
-                <img src={group123Image} alt="Group 123" className="group123-image" />
+                <img src={g123Image} alt="G 123" className="g123-image" />
             </div>
-            <div onClick={handleBack}><img src={group156Image} alt="group156Image" className="group156-image" /></div>
-            <img src={group148Image} alt="group148Image" className="group148-image" />
-            <img src={group154Image} alt="group154Image" className="group154-image" />
+            <div onClick={handleBack}><img src={g156Image} alt="g156Image" className="g156-image" /></div>
+            <img src={g148Image} alt="g148Image" className="g148-image" />
+            <img src={g154Image} alt="g154Image" className="g154-image" />
             <div className="gridContainer">
                 {cardsData.map((card) => (
                     <div className="card" key={card.id}>
@@ -50,4 +50,4 @@ const DescribeGame: React.FC = () => {
     );
 }
 
-export default DescribeGame;
+export default ScreenGame;

@@ -7,14 +7,14 @@
   border: 1px solid white;
 }
 
-.group156-image {
+.g156-image {
   position: absolute;
   top: 4%;
   left: 8%;
   width: 10%;
   transform: translateX(-50%);
 }
-.group156-image:hover {
+.g156-image:hover {
   width: 11%;
 }
 

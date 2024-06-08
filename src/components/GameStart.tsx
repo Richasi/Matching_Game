@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Card, GameState } from '../assets/types';
 import '../styles/GameStart.css';
 import { useNavigate } from 'react-router-dom';
-import group156Image from '../image/ScreenGame/Group-156.png';
+import g156Image from '../image/ScreenGame/G-156.png';
 import appleImage from '../image/GameStart/apple.png';
 import aImage from '../image/GameStart/A.png';
 import oImage from '../image/GameStart/O.png';
@@ -21,7 +21,7 @@ import tryAgain from "../image/GameStart/try.png";
 import pImage from '../image/GameStart/p.jpg';
 import mangoImage from '../image/GameStart/mongo.avif';
 import mImage from '../image/GameStart/Ma.jpg';
-import earned from "../image/GameStart/Group-146-Earned.png";
+import earned from "../image/GameStart/G-146-Earned.png";
 import monkey6 from "../image/GameStart/monkey6.png";
 
 
@@ -240,7 +240,7 @@ const GameStart: React.FC = () => {
         </div>
       )}
 
-      <div onClick={handleBack}><img src={group156Image} alt="group156Image" className="group156-image" /></div>
+      <div onClick={handleBack}><img src={g156Image} alt="g156Image" className="g156-image" /></div>
       <div className="progress-bar-container">
         <div className="progress-bar" style={{ width: `${(gameState.matches / 6) * 100}%` }}></div>
 

@@ -1,4 +1,4 @@
-.next-game {
+.next {
   position: relative;
   width: 100%;
   height: 100vh;
@@ -7,7 +7,7 @@
   background-position: center;
 }
 
-.next-game .monkey-image {
+.next .monkey-image {
   position: absolute;
   bottom: 0%;
   left: 52%;
@@ -17,121 +17,121 @@
   z-index: 1;
 }
 
-.next-game .monkey-image.jump {
+.next .monkey-image.jump {
   transform: translate(-50%, -50px);
 }
 
-.next-game .vector-image,
-.next-game .ellipse3091-image,
-.next-game .ellipse3101-image,
-.next-game .cog-image,
-.next-game .star-image,
-.next-game .ellipse3092-image,
-.next-game .ellipse3102-image,
-.next-game .group123-image,
-.next-game .group149-image,
-.next-game .heading1lifeskill2-image,
-.next-game .emoji-image,
-.next-game .group156-image,
-.next-game .group148-image,
-.next-game .group154-image {
+.next .vector-image,
+.next .ellipse3091-image,
+.next .ellipse3101-image,
+.next .c-image,
+.next .star-image,
+.next .ellipse3092-image,
+.next .ellipse3102-image,
+.next .g123-image,
+.next .g149-image,
+.next .heading1lifeskill2-image,
+.next .emoji-image,
+.next .g156-image,
+.next .g148-image,
+.next .g154-image {
   position: absolute;
 }
 
-.next-game .vector-image {
+.next .vector-image {
   bottom: 1.9%;
   left: 18.9%;
   width: 40%;
 }
 
-.next-game .ellipse3091-image {
+.next .ellipse3091-image {
   bottom: 16%;
   left: 12%;
   width: 1.8%;
   transform: translateX(-50%);
 }
 
-.next-game .ellipse3101-image {
+.next .ellipse3101-image {
   bottom: 3%;
   left: 5%;
   width: 1%;
   transform: translateX(-50%);
 }
 
-.next-game .cog-image {
+.next .c-image {
   bottom: 5%;
   left: 7%;
   width: 4%;
 }
-.next-game .cog-image:hover {
+.next .c-image:hover {
   width: 5%;
 }
 
-.next-game .star-image {
+.next .star-image {
   bottom: 4%;
   left: 20%;
   width: 4%;
 }
-.next-game .star-image:hover {
+.next .star-image:hover {
   width: 5%;
 }
 
-.next-game .ellipse3092-image {
+.next .ellipse3092-image {
   bottom: 14%;
   left: 25%;
   width: 1.8%;
   transform: translateX(-50%);
 }
 
-.next-game .ellipse3102-image {
+.next .ellipse3102-image {
   bottom: 3%;
   left: 19%;
   width: 1%;
   transform: translateX(-50%);
 }
 
-.next-game .group123-image {
+.next .g123-image {
   cursor: pointer;
   bottom: 5%;
   left: 80%;
   width: 17%;
 }
-.next-game .group123-image:hover {
+.next .g123-image:hover {
   width: 18%;
 }
 
-.next-game .group149-image {
+.next .g149-image {
   top: 15%;
   right: 12%;
   width: 30%;
 }
 
-.next-game .heading1lifeskill2-image {
+.next .heading1lifeskill2-image {
   top: 22%;
   right: 7%;
   width: 20%;
   transform: translateX(-50%);
 }
-.next-game .emoji-image {
+.next .emoji-image {
   top: 27%;
   right: 25%;
   width: 3%;
   transform: translateX(-50%);
 }
-.next-game .group156-image {
+.next .g156-image {
   top: 4%;
   left: 8%;
   width: 10%;
   transform: translateX(-50%);
 }
-.next-game .group156-image:hover {
+.next .g156-image:hover {
   width: 11%;
 }
-.next-game .group148-image {
+.next .g148-image {
   top: 4%;
   left: 20%;
 }
-.next-game .group154-image {
+.next .g154-image {
   top: 0%;
   right: 27%;
   width: 10%;

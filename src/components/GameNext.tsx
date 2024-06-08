@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import '../styles/NextGame.css';
 import monkeyImage from '../image/monkey.png';
-import group148Image from '../image/NextGame/Group-148.png';
-import group154Image from '../image/NextGame/Group-154.png';
+import g148Image from '../image/NextGame/G-148.png';
+import g154Image from '../image/NextGame/G-154.png';
 import vectorImage from '../image/Vector-123.png';
-import group123Image from '../image/NextGame/Group-123.png';
-import group149Image from '../image/Group-149.png';
+import g123Image from '../image/NextGame/G-123.png';
+import g149Image from '../image/G-149.png';
 import heading1lifeskillsImage from '../image/NextGame/Heading-life-skills.png';
-import group156Image from '../image/StartGame/Group-156.png';
+import g156Image from '../image/StartGame/G-156.png';
 import emojiImage from '../image/NextGame/Emoji.png';
 
 import { useNavigate } from 'react-router-dom';
@@ -32,18 +32,18 @@ const NextGame: React.FC = () => {
     }
 
     return (
-        <div className="next-game">
+        <div className="next">
             <img src={monkeyImage} alt="Monkey" className={`monkey-image ${jump ? 'jump' : ''}`} />
             <img src={vectorImage} alt="Vector" className="vector-image" />
             <div onClick={handleStart}>
-                <img src={group123Image} alt="Group 123" className="group123-image" />
+                <img src={g123Image} alt="G 123" className="g123-image" />
             </div>
-            <img src={group149Image} alt="Group 149" className="group149-image" />
+            <img src={g149Image} alt="G 149" className="g149-image" />
             <img src={heading1lifeskillsImage} alt="Heading Life Skills" className="heading1lifeskill2-image" />
             <img src={emojiImage} alt="emojiImage" className="emoji-image" />
-            <div onClick={handleBack}><img src={group156Image} alt="group156Image" className="group156-image" /></div>
-            <img src={group148Image} alt="group148Image" className="group148-image" />
-            <img src={group154Image} alt="group154Image" className="group154-image" />
+            <div onClick={handleBack}><img src={g156Image} alt="g156Image" className="g156-image" /></div>
+            <img src={g148Image} alt="g148Image" className="g148-image" />
+            <img src={g154Image} alt="g154Image" className="g154-image" />
         </div>
     );
 }

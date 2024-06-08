@@ -1,10 +1,10 @@
 import React from 'react';
 import '../styles/StartGame.css';
-import group123Image from '../image/StartGame/Group-123.png';
-import group149Image from '../image/Group-149.png';
+import g123Image from '../image/StartGame/G-123.png';
+import g149Image from '../image/G-149.png';
 import heading1lifeskillsImage from '../image/StartGame/Heading-1-life-skills.png';
-import group156Image from '../image/StartGame/Group-156.png';
-import group155Image from '../image/StartGame/Group-155.png';
+import g156Image from '../image/StartGame/G-156.png';
+import g155Image from '../image/StartGame/G-155.png';
 import { useNavigate } from 'react-router-dom';
 import Game from './Game';
 
@@ -20,15 +20,15 @@ const StartGame: React.FC = () => {
     }
 
     return (
-        <div className="start-game-board">
+        <div className="start-board">
             <Game />
             <div onClick={handleStart}>
-                <img src={group123Image} alt="Group 123" className="group123-image" />
+                <img src={g123Image} alt="G 123" className="g123-image" />
             </div>
-            <img src={group149Image} alt="Group 149" className="group149-image" />
+            <img src={g149Image} alt="G 149" className="g149-image" />
             <img src={heading1lifeskillsImage} alt="Heading Life Skills" className="heading1lifeskills1-image" />
-            <img src={group155Image} alt="group155Image" className="group155-image" />
-            <div onClick={handleBack}><img src={group156Image} alt="group156Image" className="group156-image" /></div>
+            <img src={g155Image} alt="g155Image" className="g155-image" />
+            <div onClick={handleBack}><img src={g156Image} alt="g156Image" className="g156-image" /></div>
         </div>
     );
 }

@@ -1,4 +1,4 @@
-.game-describe {
+.game-screen {
   position: relative;
   width: 100%;
   height: 100vh;
@@ -7,38 +7,38 @@
   background-position: center;
 }
 
-.game-describe .group156-image,
-.game-describe .group148-image,
-.game-describe .group154-image,
-.game-describe .group123-image,
-.game-describe .frame17-image,
-.game-describe .vector7-image {
+.game-screen .g156-image,
+.game-screen .g148-image,
+.game-screen .g154-image,
+.game-screen .g123-image,
+.game-screen .frame17-image,
+.game-screen .vector7-image {
   position: absolute;
 }
 
-.game-describe .group156-image {
+.game-screen .g156-image {
   top: 4%;
   left: 8%;
   width: 10%;
   transform: translateX(-50%);
 }
 
-.game-describe .group156-image:hover {
+.game-screen .g156-image:hover {
   width: 11%;
 }
 
-.game-describe .group148-image {
+.game-screen .g148-image {
   top: 4%;
   left: 20%;
 }
 
-.game-describe .group154-image {
+.game-screen .g154-image {
   top: 0%;
   right: 27%;
   width: 10%;
 }
 
-.game-describe .group123-image {
+.game-screen .g123-image {
   cursor: pointer;
   bottom: 5%;
   left: 80%;
@@ -46,23 +46,23 @@
   z-index: 2;
 }
 
-.game-describe .group123-image:hover {
+.game-screen .g123-image:hover {
   width: 18%;
 }
 
-.game-describe .frame17-image {
+.game-screen .frame17-image {
   bottom: 15%;
   left: 7.5%;
   width: 80%;
   z-index: 0;
 }
 
-.game-describe .vector7-image {
+.game-screen .vector7-image {
   bottom: 20%;
   left: 14%;
 }
 
-.game-describe .gridContainer {
+.game-screen .gridContainer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 5px;
@@ -72,121 +72,127 @@
   position: relative;
   top: 29%;
   z-index: 1;
+ 
 }
 
-.game-describe .card {
+.game-screen .card {
   background-image: url("../image/ScreenGame/Rectangle-160.png"); /* Correct relative path */
-  border-radius: 8px;
+  
+ border-radius: 8px;
   width: 72%;
   height: 105%;
   z-index: 1;
-  background-size: cover;
+  background-size: cover; /* Ensures the image fits within the container */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat;
+  
 }
 
-.game-describe .card1Image,
-.game-describe .cardImage,
-.game-describe .Headinglifeskills1Image,
-.game-describe .Headinglifeskills2Image,
-.game-describe .oneImage {
+.game-screen .card1Image,
+.game-screen .cardImage,
+.game-screen .Headinglifeskills1Image,
+.game-screen .Headinglifeskills2Image,
+.game-screen .oneImage {
   position: absolute;
 }
 
-.game-describe .card1Image {
+.game-screen .card1Image {
   top: 5%;
   left: 2%;
   width: 15%;
   z-index: 1;
+ 
 }
 
-.game-describe .cardImage {
+.game-screen .cardImage {
   top: 5%;
   left: 7%;
   width: 14%;
   z-index: 2;
 }
 
-.game-describe .Headinglifeskills1Image {
+.game-screen .Headinglifeskills1Image {
   bottom: 8%;
   left: 6%;
   width: 10.5%;
 }
 
-.game-describe .Headinglifeskills2Image {
+.game-screen .Headinglifeskills2Image {
   bottom: 0%;
   left: 6%;
   width: 10%;
 }
 
-.game-describe .oneImage {
+.game-screen .oneImage {
   bottom: 17%;
   left: 0%;
   width: 3%;
 }
 
-.game-describe .card2Image,
-.game-describe .Headinglifeskills3Image,
-.game-describe .Headinglifeskills4Image,
-.game-describe .twoImage {
+.game-screen .card2Image,
+.game-screen .Headinglifeskills3Image,
+.game-screen .Headinglifeskills4Image,
+.game-screen .twoImage {
   position: absolute;
 }
 
-.game-describe .card2Image {
+.game-screen .card2Image {
   top: 5%;
   left: 38%;
   width: 15%;
 }
 
-.game-describe .Headinglifeskills3Image {
+.game-screen .Headinglifeskills3Image {
   left: 40%;
   bottom: 10%;
   width: 10.5%;
 }
 
-.game-describe .Headinglifeskills4Image {
+.game-screen .Headinglifeskills4Image {
   bottom: 0%;
   left: 40%;
   width: 11%;
 }
 
-.game-describe .twoImage {
+.game-screen .twoImage {
   bottom: 17%;
   left: 33.5%;
   width: 3%;
 }
 
-.game-describe .group157Image,
-.game-describe .Headinglifeskills5Image,
-.game-describe .Headinglifeskills6Image,
-.game-describe .Headinglifeskills7Image,
-.game-describe .threeImage {
+.game-screen .g157Image,
+.game-screen .Headinglifeskills5Image,
+.game-screen .Headinglifeskills6Image,
+.game-screen .Headinglifeskills7Image,
+.game-screen .threeImage {
   position: absolute;
 }
 
-.game-describe .group157Image {
+.game-screen .g157Image {
   top: 5%;
   right: 8%;
   width: 25%;
 }
 
-.game-describe .Headinglifeskills5Image {
+.game-screen .Headinglifeskills5Image {
   right: 15%;
   bottom: 21%;
   width: 12%;
 }
 
-.game-describe .Headinglifeskills6Image {
+.game-screen .Headinglifeskills6Image {
   bottom: 12%;
   right: 13%;
   width: 15%;
 }
 
-.game-describe .Headinglifeskills7Image {
+.game-screen .Headinglifeskills7Image {
   bottom: 2%;
   right: 14%;
   width: 13%;
 }
 
-.game-describe .threeImage {
+.game-screen .threeImage {
   bottom: 17%;
   right: 30.1%;
   width: 3%;
